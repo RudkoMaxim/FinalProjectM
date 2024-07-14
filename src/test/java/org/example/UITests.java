@@ -79,7 +79,6 @@ public class UITests extends BaseTest{
         homePage.clickCookieBtn();
         //нажимаем на кнопку "Распродажа"
         homePage.clickSaleBtn();
-        Waiters.waitForSeconds(2);
         //нажимаем на кнопку добавления товара к корзину
         salePage.clickAddBtn();
         //нажимаем на кнопку выбора размера
