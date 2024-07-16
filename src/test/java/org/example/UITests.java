@@ -21,6 +21,7 @@ public class UITests extends BaseTest{
         HomePage homePage = new HomePage(driver);
         LoginPage loginPage = new LoginPage(driver);
         ProfilePage profilePage = new ProfilePage(driver);
+        //подтверждаем наш населенный пункт
         homePage.clickDaBtn();
         //соглашаемся с принятием файлов cookie
         homePage.clickCookieBtn();
@@ -49,6 +50,7 @@ public class UITests extends BaseTest{
     public void searchProductTest() {
         HomePage homePage = new HomePage(driver);
         ProductPage productPage = new ProductPage(driver);
+        //подтверждаем наш населенный пункт
         homePage.clickDaBtn();
         //соглашаемся с принятием файлов cookie
         homePage.clickCookieBtn();
@@ -74,6 +76,7 @@ public class UITests extends BaseTest{
         HomePage homePage = new HomePage(driver);
         SalePage salePage = new SalePage(driver);
         CartPage cartPage = new CartPage(driver);
+        //подтверждаем наш населенный пункт
         homePage.clickDaBtn();
         //соглашаемся с принятием файлов cookie
         homePage.clickCookieBtn();
@@ -108,6 +111,10 @@ public class UITests extends BaseTest{
         ProfilePage profilePage = new ProfilePage(driver);
         ProductPage productPage = new ProductPage(driver);
         SalePage salePage = new SalePage(driver);
+        //подтверждаем наш населенный пункт
+        homePage.clickDaBtn();
+        //соглашаемся с принятием файлов cookie
+        homePage.clickCookieBtn();
         //нажимаем кнопку входа в аккаунт
         homePage.clickProfileBtn();
         //вводим номер телефона
